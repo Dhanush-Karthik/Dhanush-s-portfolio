@@ -8,6 +8,7 @@ body{
     background:#111;
 }
 nav{
+   
     height: 80px;
     background: #1b1b1b;
     align-items: center;
@@ -100,7 +101,7 @@ img{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-left: 42%;
+    margin:auto;
 }
 .details{
     margin: 60px 100px;
@@ -145,7 +146,8 @@ body{
     min-height: 100vh;
 }
 .sticky-footer{
-    
+   
+   
     width: 100%;
    
     
@@ -172,8 +174,28 @@ body{
 }
 
 .content img{
+
     height:300px;
     width:300px;
     margin-right: 50px;
     border-radius: 150px;
+    
+}
+
+header{
+    position: sticky;
+    top: 0px;
+}
+
+@media screen and (max-width:630px){
+
+    .details{
+        text-align: center;
+        
+    }
+    .details .lnone {
+        list-style: none;
+        
+    }
+
 }
