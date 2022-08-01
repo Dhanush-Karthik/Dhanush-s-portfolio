@@ -145,9 +145,11 @@ body{
     min-height: 100vh;
 }
 .sticky-footer{
-    position: sticky;
+    
     width: 100%;
-    top:100%;
+   
+    
+    
 }
 .media-icons{
     display: flex;

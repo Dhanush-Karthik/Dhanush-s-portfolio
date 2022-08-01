@@ -99,7 +99,9 @@ nav .menu-button i{
 
 .content{
     max-width: 1000px;
-    margin: 60px auto;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: calc((100vh - 480px)/2);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -138,17 +140,19 @@ nav .menu-button i{
     color: #1b1b1b;
 }
 footer{
+    position: absolute;
+    bottom: 0px;
     background: #1b1b1b;
     height: 100px;
     text-align: center;
 }
 body{
-    min-height: 100vh;
+   height: 100vh;
 }
 .sticky-footer{
-    position: sticky;
+    
     width: 100%;
-    top:100%;
+    
 }
 .media-icons{
     display: flex;
