@@ -186,6 +186,10 @@ body{
 	.timeline-dot{
 		left:0;
 	}
+    footer{
+        position: sticky;
+        bottom: 0;
+    }
 }
 footer{
     background: #1b1b1b;
@@ -224,3 +228,4 @@ header{
     top: 0px;
     z-index: 1;
 }
+
