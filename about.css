@@ -141,6 +141,7 @@ li{
 }
 
 footer{
+    
     background: #1b1b1b;
     height: 100px;
     text-align: center;
@@ -200,6 +201,10 @@ header{
     .details .lnone {
         list-style: none;
         
+    }
+    footer{
+        position: sticky;
+        bottom: 0;
     }
 
 }
