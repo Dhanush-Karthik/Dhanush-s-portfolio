@@ -186,10 +186,7 @@ body{
 	.timeline-dot{
 		left:0;
 	}
-    footer{
-        position: sticky;
-        bottom: 0;
-    }
+
 }
 footer{
     background: #1b1b1b;
@@ -227,5 +224,13 @@ header{
     position: sticky;
     top: 0px;
     z-index: 1;
+}
+
+@media screen and (max-width:600px) {
+    footer{
+        position: sticky;
+        bottom: 0;
+    }
+    
 }
 
