@@ -92,7 +92,16 @@ nav .menu-button i{
   font-size: 30px;
   color: cyan;
   margin-bottom: 10px;
+  transition:all 1s ease;
+
 }
+.left-side .details i:hover{
+ transform: scale(1.5);
+ 
+  
+}
+
+
 .left-side .details .topic{
   color: #fff;
   font-size: 18px;
@@ -207,3 +216,4 @@ body{
       display:block;
   }
 }
+
