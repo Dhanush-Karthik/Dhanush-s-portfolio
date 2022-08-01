@@ -99,7 +99,7 @@ nav .menu-button i{
 
 .content{
     max-width: 1000px;
-    margin: 60px auto;
+    margin:auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
