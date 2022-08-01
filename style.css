@@ -212,5 +212,8 @@ header{
         margin-top: 50px;
         
     }
+    .content h2{
+        white-space: nowrap;
+    }
 }
 
