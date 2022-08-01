@@ -7,7 +7,12 @@
 body{
     background:#111;
     width: 100%;
+    scrollbar-width: none;
 }
+::-webkit-scrollbar {
+    display: none;
+}
+
 nav{
    
     height: 80px;

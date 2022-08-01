@@ -12,6 +12,10 @@ body{
   background: #111;
   
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
 nav{
     height: 80px;
     background: #1b1b1b;
@@ -139,9 +143,9 @@ body{
     min-height: 100vh;
 }
 .sticky-footer{
-    position: sticky;
+   
     width: 100%;
-    top:100%;
+
 }
 .media-icons{
     display: flex;
@@ -212,4 +216,16 @@ body{
 header{
     position: sticky;
     top: 0px;
+}
+
+@media screen and (max-width:600px) {
+        footer{
+          position:fixed;
+          bottom: 0px;
+        }
+
+        .left-side{
+          margin: 10px auto;
+        }
+  
 }
