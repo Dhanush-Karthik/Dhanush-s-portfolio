@@ -225,7 +225,7 @@ header{
         }
 
         .left-side{
-          margin: 10px auto;
+          margin:  calc(100vh - 568px) auto;
         }
   
 }
